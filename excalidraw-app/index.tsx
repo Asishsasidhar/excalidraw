@@ -736,9 +736,9 @@ const ExcalidrawWrapper = () => {
         autoFocus={true}
         theme={theme}
         renderTopRightUI={(isMobile) => {
-          if (isMobile || !collabAPI || isCollabDisabled) {
-            return null;
-          }
+          // if (isMobile || !collabAPI || isCollabDisabled) {
+          //   return null;
+          // }
           return (
             <LiveCollaborationTrigger
               isCollaborating={isCollaborating}
